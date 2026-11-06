@@ -1,0 +1,163 @@
+{
+  "dataset_customers": 42372,
+  "feature_count": 23,
+  "train_customers": 25423,
+  "validation_customers": 8474,
+  "test_customers": 8475,
+  "positive_customers": 3615,
+  "positive_rate": 0.08531577456811101,
+  "selected_threshold": 0.15130817872162325,
+  "threshold_selection_metric": "F2",
+  "validation": {
+    "threshold": 0.15130817872162325,
+    "accuracy": 0.7815671465659665,
+    "precision": 0.2296260786193672,
+    "recall": 0.6625172890733056,
+    "f1": 0.34104663581345673,
+    "confusion_matrix": [
+      [
+        6144,
+        1607
+      ],
+      [
+        244,
+        479
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.9618033813400125,
+        "recall": 0.7926719133015094,
+        "f1-score": 0.8690855081688945,
+        "support": 7751.0
+      },
+      "1": {
+        "precision": 0.2296260786193672,
+        "recall": 0.6625172890733056,
+        "f1-score": 0.34104663581345673,
+        "support": 723.0
+      },
+      "accuracy": 0.7815671465659665,
+      "macro avg": {
+        "precision": 0.5957147299796899,
+        "recall": 0.7275946011874075,
+        "f1-score": 0.6050660719911756,
+        "support": 8474.0
+      },
+      "weighted avg": {
+        "precision": 0.8993341590285862,
+        "recall": 0.7815671465659665,
+        "f1-score": 0.8240333362650732,
+        "support": 8474.0
+      }
+    },
+    "f2": 0.48111691442315885
+  },
+  "test": {
+    "threshold": 0.15130817872162325,
+    "accuracy": 0.7743952802359882,
+    "precision": 0.21349397590361446,
+    "recall": 0.6127247579529738,
+    "f1": 0.3166547533952823,
+    "confusion_matrix": [
+      [
+        6120,
+        1632
+      ],
+      [
+        280,
+        443
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.95625,
+        "recall": 0.7894736842105263,
+        "f1-score": 0.8648954211418881,
+        "support": 7752.0
+      },
+      "1": {
+        "precision": 0.21349397590361446,
+        "recall": 0.6127247579529738,
+        "f1-score": 0.3166547533952823,
+        "support": 723.0
+      },
+      "accuracy": 0.7743952802359882,
+      "macro avg": {
+        "precision": 0.5848719879518073,
+        "recall": 0.70109922108175,
+        "f1-score": 0.5907750872685852,
+        "support": 8475.0
+      },
+      "weighted avg": {
+        "precision": 0.8928856807762022,
+        "recall": 0.7743952802359882,
+        "f1-score": 0.8181251553270449,
+        "support": 8475.0
+      }
+    },
+    "roc_auc": 0.7803883564782104,
+    "pr_auc": 0.31872111415683363,
+    "baseline_at_0_50": {
+      "threshold": 0.5,
+      "accuracy": 0.9166961651917405,
+      "precision": 0.5620437956204379,
+      "recall": 0.10650069156293222,
+      "f1": 0.17906976744186046,
+      "confusion_matrix": [
+        [
+          7692,
+          60
+        ],
+        [
+          646,
+          77
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.9225233869033341,
+          "recall": 0.9922600619195047,
+          "f1-score": 0.9561218147917961,
+          "support": 7752.0
+        },
+        "1": {
+          "precision": 0.5620437956204379,
+          "recall": 0.10650069156293222,
+          "f1-score": 0.17906976744186046,
+          "support": 723.0
+        },
+        "accuracy": 0.9166961651917405,
+        "macro avg": {
+          "precision": 0.742283591261886,
+          "recall": 0.5493803767412184,
+          "f1-score": 0.5675957911168283,
+          "support": 8475.0
+        },
+        "weighted avg": {
+          "precision": 0.8917709686735366,
+          "recall": 0.9166961651917405,
+          "f1-score": 0.889831710929377,
+          "support": 8475.0
+        }
+      }
+    },
+    "anomaly_detection": {
+      "precision": 0.24006622516556292,
+      "recall": 0.20055325034578148,
+      "f1": 0.2185380557648832,
+      "confusion_matrix": [
+        [
+          7293,
+          459
+        ],
+        [
+          578,
+          145
+        ]
+      ],
+      "flagged_customers": 604
+    }
+  },
+  "runtime_seconds": 44.07
+}
